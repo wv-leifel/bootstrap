@@ -1,0 +1,7 @@
+$forms-root-rem-forms: 16px !default;
+$forms-root-rem-website: 16px !default;
+
+@function root-converter($rem-size) {
+  $ratio: $forms-root-rem-override / $forms-root-rem-current;
+  @return $rem-size * $ratio;
+}

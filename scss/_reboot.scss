@@ -161,7 +161,7 @@ abbr[data-original-title] { // 1
 // Address
 
 address {
-  margin-bottom: 1rem;
+  margin-bottom: root-converter(1rem);
   font-style: normal;
   line-height: inherit;
 }
@@ -171,14 +171,14 @@ address {
 
 ol,
 ul {
-  padding-left: 2rem;
+  padding-left: root-converter(2rem);
 }
 
 ol,
 ul,
 dl {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: root-converter(1rem);
 }
 
 ol ol,
@@ -195,7 +195,7 @@ dt {
 // 1. Undo browser default
 
 dd {
-  margin-bottom: .5rem;
+  margin-bottom: root-converter(.5rem);
   margin-left: 0; // 1
 }
 
@@ -203,7 +203,7 @@ dd {
 // Blockquote
 
 blockquote {
-  margin: 0 0 1rem;
+  margin: 0 0 root-converter(1rem);
 }
 
 
@@ -294,7 +294,7 @@ samp {
 pre {
   display: block;
   margin-top: 0; // 1
-  margin-bottom: 1rem; // 2
+  margin-bottom: root-converter(1rem); // 2
   overflow: auto; // 3
   @include font-size($code-font-size);
   color: $pre-color;
@@ -338,7 +338,7 @@ kbd {
 // Apply a consistent margin strategy (matches our type styles).
 
 figure {
-  margin: 0 0 1rem;
+  margin: 0 0 root-converter(1rem);
 }
 
 

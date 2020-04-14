@@ -103,7 +103,7 @@
 }
 
 .form-control-color {
-  max-width: 3rem;
+  max-width: root-converter(3rem);
   padding: $input-padding-y;
 }
 
